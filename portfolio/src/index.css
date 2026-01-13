@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Soft, warm light theme */
+    --background: 40 30% 97%;
+    --foreground: 220 30% 15%;
+
+    --card: 40 25% 95%;
+    --card-foreground: 220 30% 15%;
+
+    --popover: 40 30% 97%;
+    --popover-foreground: 220 30% 15%;
+
+    --primary: 220 35% 20%;
+    --primary-foreground: 40 30% 97%;
+
+    --secondary: 40 20% 92%;
+    --secondary-foreground: 220 30% 20%;
+
+    --muted: 40 15% 90%;
+    --muted-foreground: 220 15% 45%;
+
+    --accent: 165 45% 45%;
+    --accent-foreground: 40 30% 97%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 40 20% 88%;
+    --input: 40 20% 88%;
+    --ring: 220 35% 20%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --glow: 165 45% 45%;
+    --soft-glow: 165 45% 85%;
+    --highlight: 15 70% 60%;
+    --gradient-start: 40 30% 97%;
+    --gradient-end: 40 25% 92%;
+    
+    --transition-smooth: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Deep, sophisticated dark theme */
+    --background: 222 35% 8%;
+    --foreground: 40 25% 92%;
+
+    --card: 222 30% 12%;
+    --card-foreground: 40 25% 92%;
+
+    --popover: 222 35% 8%;
+    --popover-foreground: 40 25% 92%;
+
+    --primary: 40 25% 92%;
+    --primary-foreground: 222 35% 8%;
+
+    --secondary: 222 25% 15%;
+    --secondary-foreground: 40 25% 92%;
+
+    --muted: 222 20% 18%;
+    --muted-foreground: 220 15% 55%;
+
+    --accent: 165 50% 50%;
+    --accent-foreground: 222 35% 8%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 222 20% 18%;
+    --input: 222 20% 18%;
+    --ring: 40 25% 92%;
+
+    /* Custom tokens */
+    --glow: 165 50% 50%;
+    --soft-glow: 165 40% 25%;
+    --highlight: 15 75% 55%;
+    --gradient-start: 222 35% 8%;
+    --gradient-end: 222 30% 12%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    overflow: hidden;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Sora', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-card/60 backdrop-blur-xl border border-border/50 shadow-lg;
+  }
+
+  .glow-accent {
+    box-shadow: 0 0 60px -15px hsl(var(--glow) / 0.4);
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(var(--foreground)), hsl(var(--accent)));
+  }
+
+  .hover-lift {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px -15px hsl(var(--glow) / 0.25);
+  }
+
+  .prompt-cursor {
+    @apply inline-block w-0.5 h-5 bg-accent animate-pulse ml-1;
+  }
+
+  .section-container {
+    @apply fixed inset-0 flex items-center justify-center overflow-hidden;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    padding-left: 4rem;
+    padding-right: 2rem;
+  }
+
+  .nav-dot {
+    @apply w-2.5 h-2.5 rounded-full bg-muted-foreground/30 transition-all duration-300;
+  }
+
+  .nav-dot.active {
+    @apply bg-accent scale-125;
+  }
+
+  .skill-tag {
+    @apply px-4 py-2 rounded-full glass-panel text-sm font-medium transition-all duration-300;
+  }
+
+  .skill-tag:hover {
+    @apply bg-accent/20 border-accent/50;
+  }
+}
+
+@layer utilities {
+  .animation-delay-100 {
+    animation-delay: 100ms;
+  }
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
