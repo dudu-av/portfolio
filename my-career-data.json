@@ -1,0 +1,414 @@
+{
+  "personal": {
+    "name": "Eduardo Ávila Vilar",
+    "role": "System Architect & Software Engineer",
+    "email": "edu.avila.vilar@gmail.com",
+    "phone": "+55 (31) 9 8407-4712",
+    "location": "Fortaleza, Ceará, Brazil",
+    "linkedin": "https://linkedin.com/in/edu-avila-vilar"
+  },
+  "education": [
+    {
+      "institution": "University of Fortaleza",
+      "acronym": "UNIFOR",
+      "degree": "Specialization",
+      "field": "Cybersecurity focused on DevOps",
+      "status": "On Course",
+      "startDate": {
+        "year": 2025,
+        "month": 10
+      },
+      "endDate": {
+        "year": 2027,
+        "month": 8
+      },
+      "mainCourses": [
+        "Legal and Ethical Aspects of Cybersecurity",
+        "Criptography and Data Security",
+        "Machine Learning",
+        "Artifitial Intelligence Applied to Cybersecurity",
+        "DevOps, Containers and Clusters",
+        "DevSecOps",
+        "Attacking and Defending Containers & Clusters",
+        "Attacking and Defending CI/CD Pipelines",
+        "Security Operations Center (SOC)",
+        "Crisis Management and Cyber Incident Response",
+        "Threat Intelligence",
+        "Digital Forensics",
+        "Cloud Security Fundamentals",
+        "Infrastructure as Code (IaC)",
+        "Attacking and Defending Cloud Environments",
+        "Social Engineering Penetration Testing",
+        "Network and Server Penetration Testing",
+        "Wireless Network Penetration Testing",
+        "Application Penetration Testing (Web, Mobile, API)"
+      ],
+      "highlights": [
+        "Machine Learning (Scikit-learn, Matplotlib)",
+        "DevOps (Docker, Kubernetes)",
+        "AI Security & Responsible AI (human-in-the-loop, prompt injection, prompt leakage)",
+        "Vulnerability Management (CVE, CVSS, CWE, EPSS)",
+        "Application Security Testing (SAST, DAST, SCA)",
+        "Security in CI/CD pipelines (semgrep, cdxgen, trivy, dockle, dependency track, defectdojo)",
+        "Risk Assessment & Remediation"
+      ]
+    },
+    {
+      "institution": "Armando Alvares Penteado Foundation",
+      "acronym": "FAAP",
+      "degree": "Specialization",
+      "field": "Strategic Management",
+      "status": "Finished",
+      "startDate": {
+        "year": 2025,
+        "month": 1,
+        "day": 23
+      },
+      "endDate": {
+        "year": 2025,
+        "month": 9,
+        "day": 12
+      },
+      "highlights": []
+    },
+    {
+      "institution": "State University of Campinas",
+      "acronym": "UNICAMP",
+      "degree": "Specialization",
+      "field": "Engineering & Management of Database Systems",
+      "status": "Dropped",
+      "startDate": {
+        "year": 2024,
+        "month": 8
+      },
+      "endDate": {
+        "year": 2025,
+        "month": 6
+      },
+      "highlights": []
+    },
+    {
+      "institution": "Federal University of Minas Gerais",
+      "acronym": "UFMG",
+      "degree": "Bachelor",
+      "field": "Systems Engineering",
+      "status": "Finished",
+      "startDate": {
+        "year": 2017,
+        "month": 3
+      },
+      "endDate": {
+        "year": 2024,
+        "month": 9
+      },
+      "mainCourses": [
+        "Artifitial Neural Networks",
+        "Evolutionary Computation",
+        "Software Engineering",
+        "Control Engineering",
+        "Quantum Physics",
+        "Decision Theory",
+        "Fuzzy Systems",
+        "Signal Processing",
+        "Pattern Recognition",
+        "Data Warehouse"
+      ],
+      "highlights": [
+        "Python",
+        "Machine Learning",
+        "R (programming language)",
+        "NLP",
+        "ETL"
+      ]
+    },
+    {
+      "institution": "Eötvös Loránd University",
+      "acronym": "ELTE",
+      "degree": "International Exchange",
+      "field": "Hungarian Language",
+      "status": "Finished",
+      "startDate": {
+        "year": 2021,
+        "month": 9,
+        "day": 20
+      },
+      "endDate": {
+        "year": 2022,
+        "month": 7,
+        "day": 10
+      },
+      "highlights": ["B2 Certificate in Hungarian"]
+    },
+    {
+      "institution": "National University of San Marcos",
+      "acronym": "UNMSN",
+      "degree": "International Exchange",
+      "field": "Systems Engineering",
+      "status": "Finished",
+      "startDate": {
+        "year": 2020,
+        "month": 3
+      },
+      "endDate": {
+        "year": 2020,
+        "month": 9
+      },
+      "highlights": []
+    },
+    {
+      "institution": "Federal Institute of Rio Grande do Norte (IFRN)",
+      "acronym": "IFRN",
+      "degree": "Technical Degree",
+      "field": "Buildings",
+      "status": "Finished",
+      "startDate": {
+        "year": 2020,
+        "month": 9
+      },
+      "endDate": {
+        "year": 2020,
+        "month": 9
+      },
+      "highlights": [
+        "Competição Canguru de Matemática Sem Fronteiras. Medalha de prata. 2016. (Olimpíada).",
+        "OBMEP. Medalha de Bronze. 2016. (Olimpíada).",
+        "OBMEP. Medalha de Prata. 2015. (Olimpíada).",
+        "OBR. Medalha de Bronze. 2015. (Olimpíada).",
+        "OBI. 100º lugar de 1685 participantes. 2014. (Olimpíada).",
+        "OBMEP. Mensão Honrosa. 2014. (Olimpíada).",
+        "OBMEP. Medalha de Bronze. 2013. (Olimpíada).",
+        "IJSO - International Junior Science Olympiad. Sem medalha. 2011. (Olimpíada).",
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Bureau Tecnologia",
+      "role": "Software Engineering Manager - Technical Leadership Role",
+      "startDate": {
+        "year": 2025,
+        "month": 3,
+        "day": 3
+      },
+      "endDate": "present",
+      "location": {
+        "city": "Fortaleza",
+        "state": "Ceará",
+        "country": "Brazil"
+      },
+      
+      "description": "Leading the internalization and technical audit of a legacy third-party system, gaining full ownership of architecture and codebase.",
+      "achievements": [
+        "Led the internalization and technical audit of a mission-critical legacy public-sector platform serving 28 municipal departments, 6 independent government-linked organizations and the mayor’s office, taking ownership of architecture, infrastructure and codebases previously maintained by a third-party vendor, reducing operational dependency and enabling long-term modernization initiatives.",
+        "Defined and executed an incremental modernization strategy for a heavily undocumented Java 8 monolithic ecosystem composed of two monoliths and five major modules, introducing FastAPI-based microservices and React applications while maintaining uninterrupted operations for a platform supporting hundreds of thousands of users and more than 6 million citizen-service records.",
+        "Architected the organization’s current and target AWS cloud environments, designing scalable, resilient and multi-tenant infrastructure strategies documented through D2 architecture diagrams, while contributing to cloud governance, cost estimation and infrastructure forecasting initiatives.",
+        "Acted as the primary technical owner for AWS operations and cloud migration efforts, managing IAM access controls, S3 provisioning, billing alerts and infrastructure configuration as part of the transition from fully on-premise operations to AWS-based environments.",
+        "Redesigned production deployment architecture by implementing AWS Application Load Balancer (ALB) strategies supporting blue/green deployments and rollback capabilities, significantly reducing deployment risk and minimizing service disruption for business-critical citizen-service operations.",
+        "Transformed a fully manual deployment process that previously required manual code extraction, WAR generation, SSH-based deployment and production intervention into automated GitHub Actions CI/CD pipelines with build, testing, deployment orchestration, Docker image promotion, CDXGen SBOM generation, Trivy security scanning and Dockle compliance scanning reducing deployment execution from approximately one day to minutes.",
+        "Established engineering standards for environment management, deployment workflows, versioning strategies and release governance, improving delivery consistency and creating repeatable operational processes for development and production environments.",
+        "Designed and implemented backend services using FastAPI (Python) and frontend applications with React and TypeScript, enabling the gradual decomposition of legacy services and accelerating delivery of new features integrated with existing systems.",
+        "Designed the architecture and initial implementation of an AI-driven NLP chatbot platform using LangGraph, LangChain and FastAPI, transforming a previously rule-based chatbot approach into workflow-oriented conversational automation integrated with internal APIs and citizen-service complaint registration processes.",
+        "Led development of a public-facing citizen-service chatbot initiative integrated with WhatsApp workflows, enabling citizens to register complaints through natural-language interactions instead of relying exclusively on call centers, in-person service or limited application workflows.",
+        "Designed workflow orchestration and automated testing strategies for AI-driven conversational flows, enabling validation of chatbot behaviors, workflow reliability and API integration consistency before production adoption.",
+        "Engineered Python and Pandas-based metadata mining solutions capable of extracting and centralizing knowledge from a legacy PostgreSQL database containing 148 tables, creating the organization’s first centralized database dictionary and accelerating onboarding, system comprehension and query reliability across the engineering team.",
+        "Reverse engineered undocumented business rules and system behaviors from legacy applications, database structures and proprietary framework artifacts available only as compiled JAR files, translating critical operational knowledge into scalable and maintainable service-oriented solutions.",
+        "Designed API integration patterns and batch-processing workflows focused on fault tolerance, data consistency and interoperability between legacy systems, modern services and external integrations.",
+        "Audited and resolved cross-system data inconsistencies through architectural improvements and process redesign initiatives, improving reliability of operational and citizen-service data flows.",
+        "Defined and implemented the organization’s first automated testing strategy, introducing end-to-end, integration and unit testing practices that significantly improved release confidence, reduced regression risk and enabled safer modernization efforts.",
+        "Led technical planning, backlog structuring and architectural discussions for a multidisciplinary engineering team of six developers, aligning delivery priorities with modernization goals, operational stability and stakeholder requirements.",
+        "Acted as the primary technical bridge between engineering teams, city hall stakeholders, executives and third-party maintainers, translating complex operational and business requirements into scalable technical solutions and modernization roadmaps.",
+        "Designed end-to-end system features including data models, API contracts, frontend-backend interaction flows and service integration patterns, ensuring maintainability, scalability and alignment with long-term architectural goals."
+      ],
+      "skills": [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
+        "LangGraph",
+        "LangChain",
+        "Selenium",
+        "PlayWright",
+        "Pytest",
+        "Locust",
+        "Pandas",
+        "Numpy",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Java",
+        "Hibernate",
+        "Flyway",
+        "PostgreSQL",
+        "Docker",
+        "CDXGen",
+        "Trivy",
+        "Dockle",
+        "Multistage container building",
+        "GitHub Actions",
+        "AWS IAM",
+        "AWS EC2",
+        "AWS S3",
+        "AWS CloudFront",
+        "AWS CloudFormation",
+        "AWS ALB",
+        "AWS Billing",
+        "AWS EventBridge",
+        "REST APIs",
+        "Design Patterns",
+        "Backend Development",
+        "Frontend Development",
+        "ETL",
+        "Data Engineering",
+        "Software Documentation",
+        "Software Design",
+        "Software Architecture",
+        "Business Rules Validation",
+        "Requirements Engineering",
+        "Team Leadership"
+      ]
+    },
+    {
+      "company": "Performa Brasil",
+      "role": "Data Engineer",
+      "startDate": "2023-06",
+      "endDate": "2025-02",
+      "location": "Remote",
+      "description": "Supported business operations and decision-making initiatives by developing automation workflows, chatbot solutions and data integration pipelines focused on operational efficiency and scalable information access.",
+      "achievements": [
+        "Designed, developed and maintained internal and external chatbot solutions using Python-based automation and conversational workflows, supporting operational communication and customer interaction initiatives across multiple business contexts.",
+        "Automated repetitive operational processes through Selenium-based web scraping workflows and ETL pipelines built with Python and Pandas, reducing manual effort and improving consistency of business-critical data processing activities.",        
+        "Developed data extraction and transformation routines integrating multiple external sources into structured internal datasets, improving information accessibility and operational reporting capabilities for business teams.",        
+        "Acted as a data liaison between leadership and technical systems by translating high-level business questions into optimized MySQL queries and actionable datasets, enabling faster and more accurate decision-making processes.",        
+        "Contributed to the maintenance and evolution of production systems used by internal teams, supporting operational continuity and improving reliability of business workflows.",        
+        "Analyzed operational bottlenecks and identified automation opportunities, helping reduce dependency on manual processes and improving scalability of recurring business operations.",        
+        "Collaborated with business stakeholders to understand reporting and operational requirements, transforming non-technical demands into structured data solutions and automation strategies."
+      ],
+      "skills": [
+        "Python",
+        "MySQL",
+        "Selenium",
+        "Pandas",
+        "Numpy",
+        "ETL",
+        "Web Scraping",
+        "Automation",
+        "Data Engineering"
+      ]
+    },
+    {
+      "company": "Ebookmaker",
+      "role": "Data Engineer & Backend Developer (Intern)",
+      "startDate": "2024-03",
+      "endDate": "2024-06",
+      "location": "Remote",
+      "description": "Developed backend services and integrations supporting AI-powered chatbot solutions for external users, focusing on scalable APIs, multilingual workflows and data integration.",
+      "achievements": [
+        "Designed and implemented FastAPI (Python) backend services supporting integration of AI-driven chatbot solutions for external users, enabling scalable and modular communication workflows across multiple languages.",
+        "Integrated financial and operational data from PostgreSQL databases and third-party APIs, improving consistency and accessibility of business information across backend services and chatbot interactions.",        
+        "Applied software design patterns and modular architecture principles to backend services, improving maintainability, scalability and long-term extensibility of the application ecosystem.",        
+        "Collaborated on backend architecture and API design initiatives, contributing to standardized service communication and structured integration workflows.",        
+        "Developed and maintained RESTful API endpoints supporting chatbot interactions, operational workflows and external service integrations.",        
+        "Contributed to data modeling and backend service organization efforts, improving separation of concerns and reducing coupling between system components.",        
+        "Supported rapid product iteration cycles in a startup-like environment, balancing feature delivery, integration reliability and maintainable backend development practices."
+      ],
+      "skills": [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
+        "PostgreSQL",
+        "REST APIs",
+        "API Integration",
+        "Backend Development",
+        "Design Patterns",
+        "Software Architecture"
+      ]
+    }
+  ],
+  "skills": {
+    "technical": [
+      "Python (FastAPI, Pandas, LangGraph, LangChain, SQLAlchemy, Selenium, Locust, PlayWright)",
+      "Java (Struts, Hibernate, Tomcat, Maven, Flyway)",
+      "JavaScript/TypeScript (React)",
+      "Database (PostgreSQL, MySQL, MongoDB)",
+      "DevOps (Docker, AWS, Git, GitHub)",
+      "Cloud (AWS)",
+      "Architecture (Systems Design, Mermaid, D2Lang)",
+      "Elixir",
+      "Spec-Driven Development (Claude Code, Codex, Antigravity)"
+    ],
+    "soft": [
+      "Technical Leadership",
+      "Stakeholder Management",
+      "Academic Tutoring",
+      "Problem Solving",
+      "Cross-functional Collaboration"
+    ],
+    "foreign languages": [
+      {
+        "name": "Portuguese",
+        "level": "Native"
+      },
+      {
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "name": "Spanish",
+        "level": "Fluent"
+      },
+      {
+        "name": "Hungarian",
+        "level": "Beginner"
+      },
+      {
+        "name": "French",
+        "level": "Beginner"
+      },
+      {
+        "name": "Italian",
+        "level": "Beginner"
+      },
+      {
+        "name": "Mandarin",
+        "level": "Beginner"
+      }
+    ],
+    "certificates": {
+      "cloud": {
+        "aws": [
+          {
+            "name": "Certified Cloud Practitioner",
+            "code": "CLF-C02",
+            "score": "837 out of 1000",
+            "credential": "https://cp.certmetrics.com/amazon/en/public/verify/credential/b84f1a2fb70c49968a11457f56382dd8",
+            "active since": "20/05/2026",
+            "expires on": "20/05/2029"
+          }
+        ]
+      }
+    }
+  },
+  "volunteering": [
+    {
+      "organization": "Association Efigênia Vidigal",
+      "role": "Volunteer Mentor",
+      "date": "2024",
+      "description": "Teaching programming and entrepreneurship to public school students."
+    },
+    {
+      "organization": "UFMG and IFRN",
+      "role": "Academic Support Tutor",
+      "date": "2014-2023",
+      "description": "Tutoring in Mathematics, Physics, Python Programming, and Artifitial Neural Networks."
+    }
+  ],
+  "careerGoals": {
+    "shortTerm": "Complete specialization in DevSecOps and finalize legacy system modernization.",
+    "longTerm": "Drive digital transformation at a global scale as a Lead Architect or CTO.",
+    "targetRoles": [
+      "Technical Lead",
+      "Software Engineering Manager",
+      "Systems Architect",
+      "Full Stack Engineer"
+    ]
+  }
+}
