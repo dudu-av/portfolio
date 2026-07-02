@@ -1,4 +1,5 @@
 {
+  "_title": "cv.json",
   "personal": {
     "name": "Eduardo Ávila Vilar",
     "role": "System Architect & Software Engineer",
@@ -24,9 +25,9 @@
       },
       "mainCourses": [
         "Legal and Ethical Aspects of Cybersecurity",
-        "Criptography and Data Security",
+        "Cryptography and Data Security",
         "Machine Learning",
-        "Artifitial Intelligence Applied to Cybersecurity",
+        "artificial Intelligence Applied to Cybersecurity",
         "DevOps, Containers and Clusters",
         "DevSecOps",
         "Attacking and Defending Containers & Clusters",
@@ -102,7 +103,7 @@
         "month": 9
       },
       "mainCourses": [
-        "Artifitial Neural Networks",
+        "artificial Neural Networks",
         "Evolutionary Computation",
         "Software Engineering",
         "Control Engineering",
@@ -207,7 +208,8 @@
         "Transformed a fully manual deployment process that previously required manual code extraction, WAR generation, SSH-based deployment and production intervention into automated GitHub Actions CI/CD pipelines with build, testing, deployment orchestration, Docker image promotion, CDXGen SBOM generation, Trivy security scanning and Dockle compliance scanning reducing deployment execution from approximately one day to minutes.",
         "Established engineering standards for environment management, deployment workflows, versioning strategies and release governance, improving delivery consistency and creating repeatable operational processes for development and production environments.",
         "Designed and implemented backend services using FastAPI (Python) and frontend applications with React and TypeScript, enabling the gradual decomposition of legacy services and accelerating delivery of new features integrated with existing systems.",
-        "Designed the architecture and initial implementation of an AI-driven NLP chatbot platform using LangGraph, LangChain and FastAPI, transforming a previously rule-based chatbot approach into workflow-oriented conversational automation integrated with internal APIs and citizen-service complaint registration processes.",
+        "Led the redesign of the platform's data and form architecture by introducing an Entity-Attribute-Value (EAV) model and a JSONB-based conditional workflow engine, eliminating the need for code deployments and database migrations for most client-specific customizations; enabling business teams to configure fields, forms and dynamic questionnaires independently, reducing operational bottlenecks and significantly increasing the scalability and adaptability of the platform.",
+        "Designed the architecture and initial implementation of an AI-driven NLP chatbot platform using SQLite, LangGraph, LangChain and FastAPI, transforming a previously rule-based chatbot approach into workflow-oriented conversational automation integrated with internal APIs and citizen-service complaint registration processes.",
         "Led development of a public-facing citizen-service chatbot initiative integrated with WhatsApp workflows, enabling citizens to register complaints through natural-language interactions instead of relying exclusively on call centers, in-person service or limited application workflows.",
         "Designed workflow orchestration and automated testing strategies for AI-driven conversational flows, enabling validation of chatbot behaviors, workflow reliability and API integration consistency before production adoption.",
         "Engineered Python and Pandas-based metadata mining solutions capable of extracting and centralizing knowledge from a legacy PostgreSQL database containing 148 tables, creating the organization’s first centralized database dictionary and accelerating onboarding, system comprehension and query reliability across the engineering team.",
@@ -398,7 +400,7 @@
       "organization": "UFMG and IFRN",
       "role": "Academic Support Tutor",
       "date": "2014-2023",
-      "description": "Tutoring in Mathematics, Physics, Python Programming, and Artifitial Neural Networks."
+      "description": "Tutoring in Mathematics, Physics, Python Programming, and artificial Neural Networks."
     }
   ],
   "careerGoals": {
