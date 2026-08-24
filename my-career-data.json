@@ -12,6 +12,29 @@
     {
       "institution": "University of Fortaleza",
       "acronym": "UNIFOR",
+      "degree": "Master Degree",
+      "field": "Computer Science",
+      "status": "On Course",
+      "startDate": {
+        "year": 2026,
+        "month": 8
+      },
+      "endDate": {
+        "year": 2028,
+        "month": 7
+      },
+      "mainCourses": [
+        "Urban Data Science",
+        "Advanced Topics in Data Science",
+        "Human-Computer Interection",
+        "Digital Games",
+        "Formal Methods"
+      ],
+      "highlights": []
+    },
+    {
+      "institution": "University of Fortaleza",
+      "acronym": "UNIFOR",
       "degree": "Specialization",
       "field": "Cybersecurity focused on DevOps",
       "status": "On Course",
@@ -263,6 +286,8 @@
         "AWS ALB",
         "AWS Billing",
         "AWS EventBridge",
+        "AWS ECS",
+        "AWS ECR",
         "ElevenLabs",
         "GitOps",
         "RBAC",
