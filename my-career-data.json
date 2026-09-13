@@ -238,7 +238,11 @@
 		"Engineered Python and Pandas-based metadata mining solutions for a 148-table legacy PostgreSQL database, creating the organization’s first centralized database dictionary and improving system comprehension, onboarding and query reliability across the engineering team.",
 		"Reverse engineered undocumented business rules and system behaviors from legacy Struts2/JSP applications, Hibernate mappings, PostgreSQL schemas and compiled proprietary Java JAR artifacts, translating critical operational knowledge into maintainable service-oriented solutions.",
 		"Defined and implemented the organization’s first automated testing strategy using JUnit 5, Mockito, pytest, end-to-end testing and integration testing, establishing a layered testing architecture to support safer releases and incremental modernization.",
-		"Led technical planning, architectural decisions and delivery coordination for a six-developer engineering team, applying Agile backlog management, architectural documentation, technical standards and stakeholder alignment to modernization initiatives and operational stability.",],
+		"Managed a six-developer engineering team, prioritizing and specifying technical tasks, coordinating delivery, monitoring progress and aligning implementation with product requirements and architectural objectives.",
+		"Established code quality and security oversight practices using automated testing, CycloneDX SBOM generation with CDXGen and vulnerability scanning with Trivy, monitoring defects and security threats introduced into the codebase and coordinating corrective actions to maintain system reliability.",
+		"Validated delivered features through hands-on testing and technical analysis, translating implementation details into evidence-based explanations of how proposed solutions addressed client business problems and communicating technical trade-offs to the CEO.",
+		"Conducted regular one-on-one discussions with developers to identify technical challenges, workload constraints and operational pain points, translating team feedback into improvement proposals and actionable recommendations for executive leadership."
+	  ],
       "skills": [
         "Python",
         "FastAPI",
